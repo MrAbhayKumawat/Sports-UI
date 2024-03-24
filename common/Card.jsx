@@ -18,7 +18,7 @@ const Card = React.memo(({ darkTheme }) => {
             style={{ maxWidth: "260px", maxHeight: "385px" }}
           />
           <h1 className="text-lg p-2">{item.title}</h1>
-          <div className={`text-xs flex p-2 m-2 ${darkTheme ? "bg-white" : "bg-Incardcolor"}`}>
+          <div className={`text-xs flex p-2 m-2 space-x-14 ${darkTheme ? "bg-white" : "bg-Incardcolor"}`}>
             <div>
               <div>Total Events</div>
               <div className="text-xs">{item.totalEvents} Events</div>
